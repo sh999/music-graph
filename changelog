@@ -1,0 +1,32 @@
+==11/16/16==
+Use cases:
+
+$ music -b "Jimi Hendrix Experience"
+Similar bands to "Jimi Hendrix Experience": 
+	1 Cream
+	2 Band of Gypsies
+	3
+
+$ music -s "Wind Cries Mary" 
+Similar songs to "Wind Cries Mary": 
+	1 Little Wing (Jimi Hendrix Experience)
+	2 Like a Rolling Stone (Bob Dylan)
+	3
+
+$ music -q "peace,love"
+Songs you may like with keywords "peace,love"
+	1  All You Need is Love (The Beatles)
+	2 Imagine (John Lennon)
+	3
+
+$ music rank		# Return most influential bands
+Most influential bands:
+	1 
+	2
+	3
+
+$ music rank -h  	# Return top hipster bands
+Bands hipsters may like:
+	1
+	2
+	3
