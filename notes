@@ -1,0 +1,47 @@
+How to combine lyric similarity, similarity graph, and influence graph? 
+User inputs keywords and lyrics database is searched. Songs that are most similar to the query will be the top hits.
+
+
+==Possible use cases and manual:==
+
+Commands
+similar 	show similar bands, songs, etc.
+rank 		show rank of band influence
+hipster 	show hipster bands (reverse influence)
+
+Flags
+b 	band
+s 	song
+a 	album
+q 	query keywords (terms separated by commas)
+g 	limit command by genre
+
+$ music -b "Jimi Hendrix Experience"
+Similar bands to "Jimi Hendrix Experience": 
+	1 Cream
+	2 Band of Gypsies
+	3
+
+$ music -s "Wind Cries Mary" 
+Similar songs to "Wind Cries Mary": 
+	1 Little Wing (Jimi Hendrix Experience)
+	2 Like a Rolling Stone (Bob Dylan)
+	3
+
+$ music -q "peace,love"
+Songs you may like with keywords "peace,love"
+	1 All You Need is Love (The Beatles)
+	2 Imagine (John Lennon)
+	3
+
+$ music rank		# Return most influential bands
+Most influential bands:
+	1 
+	2
+	3
+
+$ music hipster   	# Return top hipster bands
+Bands hipsters may like:
+	1
+	2
+	3
