@@ -1,0 +1,5 @@
+{"artist":"Queen","influencedby":["Beatles"],"moods":["energetic","flamboyant","melancholic"]}
+{"artist":"Beatles","influencedby":["Jimi Hendrix Experience"],"moods":["melancholic","happy","introspective"]}
+{"artist":"Nirvana","influencedby":["Jimi Hendrix Experience"],"moods":["angsty","angry","melancholic"]}
+{"artist":"Jimi Hendrix Experience","influencedby":["Pink Floyd"],"moods":["energetic","psychadelic","introspective"]}
+{"artist":"Pink Floyd","influencedby":["Beatles"],"moods":["psychadelic","melancholic","random"]}
